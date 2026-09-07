@@ -1,0 +1,6 @@
+# Solo la API necesita dependencias externas; el nucleo y las pruebas usan la
+# biblioteca estandar (sqlite3, threading, secrets).
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pytest>=8.0
